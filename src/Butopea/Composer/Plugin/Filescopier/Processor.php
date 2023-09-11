@@ -64,7 +64,7 @@ class Processor
 			$this->io->write('[butopea/composer-plugin-filecopier] init destination : '.$destination);
 		}
 
-		$sources = \glob($source, GLOB_MARK);
+		$sources = \glob($source, GLOB_MARK + GLOB_BRACE);
 		if (!empty($sources)) {
 			foreach ($sources as $newsource) {
 				$this->copyr($newsource, $destination, $project_path, $debug);
