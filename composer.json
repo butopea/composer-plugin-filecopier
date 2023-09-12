@@ -1,5 +1,5 @@
 {
-	"name" : "butopea/composer-plugin-filecopier",
+	"name" : "srgk/composer-plugin-filecopier",
 	"description" : "Composer Plugin Mass Files Copier",
 	"keywords" : [
 		"composer plugin",
